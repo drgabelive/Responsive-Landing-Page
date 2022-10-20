@@ -81,6 +81,7 @@ ul{
 .section-div1 {
     background-color: #191826;
     width: 1110px;
+    border-radius: 20px;
     height: 600px;
     Top: -337px;
     Left: 1374px;
@@ -186,6 +187,35 @@ ul{
     width: 333px;
     border-radius: 12px;
 }
+
+
+.footer-div2 {
+    display: flex;
+    margin-left: -0px;
+    height: 32px;
+    margin-top: 200px;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
