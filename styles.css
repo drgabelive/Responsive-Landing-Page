@@ -9,17 +9,21 @@ html, body {
     padding: 50px 20px;
 }
 
+
 ul{
     display:inline-flex;
 }
+
 
 .equalizer, .pattern-1{
     margin: 20px 20px;
 }
 
+
 .pattern-1 {
     margin: 20px 500px;  
 }
+
 
 .h1-text{
     width: 1015px;
@@ -33,6 +37,17 @@ ul{
     color: #191826
 }
 
+
+.h1-p{
+    width: 825px;
+    height: 102px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #191826;
+}
 
 
 
