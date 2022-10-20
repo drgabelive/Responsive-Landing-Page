@@ -60,21 +60,49 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.illustration{
+    position: absolute;
+    width: 400px;
+    height: 670px;
+    margin-top: -250px;
+    margin-left: 50px;
+}
 
 
 .pattern-2{
-
+    margin: auto;
+    display: block;
+    width:312px;
+    height:468;
+    margin-top: 400px; 
 }
+
+
+.section-div1 {
+    background-color: #191826;
+    width: 1110px;
+    height: 600px;
+    Top: -337px;
+    Left: 1374px;
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
