@@ -21,7 +21,17 @@ ul{
     margin: 20px 500px;  
 }
 
-
+.h1-text{
+    width: 1015px;
+    height: 176px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    color: #191826
+}
 
 
 
