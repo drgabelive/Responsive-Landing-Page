@@ -8,3 +8,10 @@ html, body {
     margin: 50px;
     padding: 50px 20px;
 }
+
+nav, ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px -800px;
+}
