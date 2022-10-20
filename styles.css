@@ -114,8 +114,21 @@ ul{
 }
 
 
+.div-premium {
+    margin : 30px;
+}
 
 
+.div3-p {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: -20px;
+    line-height: 34px;
+    color: #FCFAF9; 
+}
 
 
 
