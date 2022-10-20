@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: url("images/bg-main-desktop.png");
+    background-size:cover;
+    margin: 50px;
+    padding: 50px 20px;
+}
