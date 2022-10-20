@@ -189,6 +189,13 @@ ul{
 }
 
 
+.footer-div1 {
+    display: flex;
+    justify-content: space;
+    flex-direction: row;
+}
+
+
 .footer-div2 {
     display: flex;
     margin-left: -0px;
@@ -197,8 +204,28 @@ ul{
 }
 
 
+.h5-text {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    left: 25.68%;
+    margin-top: 200px;
+    margin-left: 200px;
+    line-height: 34px;
+}
 
 
+.footer-div4 {
+    display:flex;
+    justify-content:space-between;
+    position: absolute;
+    margin-top: 200px;
+    width: 100px;
+    height: 20px;
+    left: 1099px;
+    padding: -0px;
+}
 
 
 
