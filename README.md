@@ -1,1 +1,1 @@
-# responsive-landing-page-2
+# responsive-landing-page
