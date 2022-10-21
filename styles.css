@@ -116,6 +116,11 @@ ul{
 }
 
 
+.section-div1:hover{
+    background-color: azure;
+}
+
+
 .section-div2{
     background-color: #FA7453;
     Top:-268px;
@@ -128,6 +133,11 @@ ul{
     margin-right: 50px;
     border-radius :10px;
     position: sticky;
+}
+
+
+.section-div2:hover{
+    background-color:aquamarine;
 }
 
 
@@ -208,11 +218,21 @@ ul{
 }
 
 
+.div6-button1:hover{
+    background-color:aquamarine;
+}
+
+
 .div6-button2 {
     background-color:antiquewhite; 
     height: 61px;
     width: 333px;
     border-radius: 12px;
+}
+
+
+.div6-button2:hover{
+    background-color:aquamarine;
 }
 
 
