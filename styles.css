@@ -27,6 +27,11 @@ ul{
 }
 
 
+.equalizer:hover{
+    background-color: aquamarine;
+}
+
+
 .pattern-1 {
     margin: 20px 100px;  
 }
@@ -67,6 +72,11 @@ ul{
 }
 
 
+.pattern-1:hover{
+    background-color:aqua;
+}
+
+
 .illustration{
     position: absolute;
     width: 400px;
@@ -76,12 +86,22 @@ ul{
 }
 
 
+.illustration:hover{
+    background-color:aqua;
+}
+
+
 .pattern-2{
     margin: auto;
     display: block;
     width:312px;
     height:468;
     margin-top: 400px; 
+}
+
+
+.pattern-2:hover{
+    background-color:aqua;
 }
 
 
