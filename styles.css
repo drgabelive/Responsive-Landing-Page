@@ -3,10 +3,17 @@
 }
 
 html, body {
-    background-image: url("images/bg-main-desktop.png");
     background-size:cover;
     margin: 50px;
-    padding: 50px 20px;
+    padding: 20px 10px;
+}
+
+
+.body-div{
+    height: 2000px;
+    width: 1333px;
+    padding-top: 84px;
+    background-image: url("images/bg-main-desktop.png");
 }
 
 
@@ -15,13 +22,13 @@ ul{
 }
 
 
-.equalizer, .pattern-1{
-    margin: 20px 20px;
+.equalizer {
+    margin: 20px -32px;
 }
 
 
 .pattern-1 {
-    margin: 20px 500px;  
+    margin: 20px 100px;  
 }
 
 
@@ -226,8 +233,6 @@ ul{
     left: 1099px;
     padding: -0px;
 }
-
-
 
 
 
