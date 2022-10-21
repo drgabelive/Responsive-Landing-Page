@@ -251,6 +251,12 @@ ul{
 }
 
 
+.footer-div2:hover{
+    background-color: aqua;
+    border-color: aquamarine;
+}
+
+
 .h5-text {
     font-family: 'IBM Plex Sans';
     font-style: normal;
@@ -275,10 +281,19 @@ ul{
 }
 
 
+.h5-fbk:hover{
+    background-color: yellowgreen;
+} 
 
 
+.h5-ig:hover{
+    background-color: #f33809;
+}
 
 
+.h5-twt:hover{
+    background-color: green;
+}
 
 
 
