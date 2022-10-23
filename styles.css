@@ -1,12 +1,21 @@
+
 *{
     box-sizing: border-box;
+    
 }
 
 html, body {
     background-size:cover;
     margin: 50px;
     padding: 20px 10px;
+    @media screen and (max-width:1000px) and (min-width:768px)
+    {
+       background-color: blue;
+   } 
+        
+    
 }
+
 
 
 .body-div{
@@ -295,6 +304,34 @@ ul{
     background-color: green;
 }
 
+
+@media (max-width: 768px) {
+   
+  
+    .keys {
+      width: 318px;
+    }
+  
+    .logo {
+      width: 150px;
+    }
+  }
+  
+  @media (max-width: 1199px) and (min-width: 769px) {
+    .section-div1 {
+        position: absolute;
+        width: 696px;
+        height: 834px;
+        left: 33px;
+        top: 832px;
+    }
+  .footer-div1{
+    position: absolute;
+    width: 696px;
+    height: 143px;
+    left: 33px;
+    top: 2100px;
+  }
 
 
 
