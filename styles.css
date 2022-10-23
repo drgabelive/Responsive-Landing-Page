@@ -305,18 +305,7 @@ ul{
 }
 
 
-@media (max-width: 768px) {
-   
-  
-    .keys {
-      width: 318px;
-    }
-  
-    .logo {
-      width: 150px;
-    }
-  }
-  
+  /*Tablet View Media Queries*/
   @media (max-width: 1199px) and (min-width: 769px) {
     .pattern-1{
         position: absolute;
@@ -325,6 +314,7 @@ ul{
         left: 937px;
         top: 100px;
     }
+
     .section-div1 {
         position: absolute;
         width: 696px;
@@ -332,6 +322,7 @@ ul{
         left: 33px;
         top: 832px;
     }
+
   .footer-div1{
     position: absolute;
     width: 696px;
@@ -365,146 +356,4 @@ ul{
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
