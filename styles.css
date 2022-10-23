@@ -318,6 +318,13 @@ ul{
   }
   
   @media (max-width: 1199px) and (min-width: 769px) {
+    .pattern-1{
+        position: absolute;
+        width: 266.67px;
+        height: 400px;
+        left: 937px;
+        top: 100px;
+    }
     .section-div1 {
         position: absolute;
         width: 696px;
@@ -331,6 +338,30 @@ ul{
     height: 143px;
     left: 33px;
     top: 2100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    
+  }
+  .footer-div2{
+    width: 200px;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+
+  }
+  .h5-text{
+    position: absolute;
+    left: -200px;
+    top: 100px;
+  }
+
+  .footer-div4{
+    position: absolute;
+    display: flex;
+    left: 590px;
+    top: 130px;
   }
 
 
