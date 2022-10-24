@@ -6,18 +6,19 @@
 
 html, body {
     background-size:cover;
-    margin: 50px;
-    padding: 20px 10px;
+    margin: 2px;
+    padding: 20px 20px;
 }
-
 
 
 .body-div{
-    height: 2000px;
-    max-width: 1333px;
-    padding-top: 84px;
+    height: 1758px;
+    width: 1613px;
+    padding-top: 20px;
+    right: -400px;
     background-image: url("images/bg-main-desktop.png");
 }
+
 
 
 ul{
@@ -26,7 +27,7 @@ ul{
 
 
 .equalizer {
-    margin: 20px -32px;
+    margin: 20px 162px;
 }
 
 
@@ -35,19 +36,16 @@ ul{
 }
 
 
-.pattern-1 {
-    margin: 20px 100px;  
-}
-
 
 .h1-text{
-    width: 1015px;
-    height: 176px;
+    width: 1115px;
+    height: 196px;
+    margin:110px 200px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 88px;
-    line-height: 88px;
+    font-size: 120px;
+    line-height: 108px;
     letter-spacing: -1px;
     color: #191826
     
@@ -55,24 +53,26 @@ ul{
 
 
 .h1-p{
-    width: 825px;
+    width: 1000px;
     height: 102px;
+    margin: -40px 210px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 34px;
+    letter-spacing: 1px;
     color: #191826;
 }
 
 
 .pattern-1{
-    Width: 312px;
-    Height: 468px;
     position: absolute;
     float: right;
-    margin-top: -100px;
-    left: 1040px;
+    Width: 312px;
+    Height: 488px;
+    margin-top: -80px; 
+    left: 1470px;
 }
 
 
@@ -83,10 +83,10 @@ ul{
 
 .illustration{
     position: absolute;
-    width: 400px;
-    height: 670px;
-    margin-top: -250px;
-    margin-left: 50px;
+    width: 350px;
+    height: 780px;
+    margin-top: -280px;
+    margin-left: 150px;
 }
 
 
@@ -96,11 +96,11 @@ ul{
 
 
 .pattern-2{
-    margin: auto;
     display: block;
-    width:312px;
-    height:468;
-    margin-top: 400px; 
+    width:330px;
+    height:520px;
+    padding-top: auto;
+    margin-left: 440px; 
 }
 
 
@@ -111,12 +111,15 @@ ul{
 
 .section-div1 {
     background-color: #191826;
-    width: 1110px;
+    width: 1370px;
     border-radius: 20px;
-    height: 600px;
-    Top: -337px;
+    height: 640px;
+    Top: 157px;
     Left: 1374px;
-    margin-top: 300px;
+    margin-top: 450px;
+    margin-left: 200px;
+  
+    
 }
 
 
@@ -129,12 +132,12 @@ ul{
     background-color: #FA7453;
     Top:-268px;
     Left:1934px;
-    width: 446px;
+    width: 506px;
     height: 625px;
     border-radius: 12px;
     margin-left: auto;
-    margin-top: -400px;
-    margin-right: 50px;
+    margin-top: -430px;
+    margin-right: 170px;
     border-radius :10px;
     position: sticky;
 }
@@ -302,6 +305,13 @@ ul{
 
   /*Tablet View Media Queries*/
   @media (max-width: 1199px) and (min-width: 769px) {
+    .body-div{
+        height: 200px;
+        width: 130px;
+        border-color: #f33809;
+        background-image: url("images/bg-main-tablet.png");
+    }
+    
     .pattern-1{
         position: absolute;
         width: 266.67px;
@@ -321,7 +331,6 @@ ul{
         line-height: 28px;
         
     }
-
 
     .section-div1 {
         position: absolute;
