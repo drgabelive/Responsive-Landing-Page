@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
 
 *{
     box-sizing: border-box;
@@ -310,37 +312,40 @@ ul{
     .equalizer{
         position: absolute;
         margin-left: -15px;
+        margin-top: 15px;
     }
 
 
     .pattern-1{
         position: absolute;
-        width: 286.67px;
+        width: 326.67px;
         height: 500px;
-        left: 890px;
-        top: 82px;
+        left: 870px;
+        top: 62px;
     }
 
 
     .h1-text{
         width: 795px;
         height: 106px;
-    margin:190px 20px;
-    font-family: 'IBM Plex Sans';
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 100px;
-    letter-spacing: -1px;
-    color: #191826;
+        margin:130px 20px;
+        font-size: 100px;
+        line-height: 90px;
+        letter-spacing: -1px;
+    
     }
     
     .h1-p{
-        font-size: 18px;
-        width: 470px;
-        top: 40px;
-        line-height: 28px;
-        
+        font-size: 23px;
+        width: 755px;
+        padding: 60px 10px;
+        line-height: 30px;
+        margin: 140px 22px;
+        letter-spacing: 1px;
+        font-weight: 400;
     }
+
+ 
 
     .section-div1 {
         position: absolute;
