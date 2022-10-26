@@ -301,18 +301,15 @@ ul{
 
   /*Tablet View Media Queries*/
  
-
-
   @media (max-width: 1199px) and (min-width: 769px) {
     body{
-        background-color: green;
         background-image: url("images/bg-main-tablet.png");
     }
     
+
     .body-div{
         height: 200px;
-        width: 179px;
-          
+        width: 179px;    
     }
     
 
@@ -339,9 +336,9 @@ ul{
         font-size: 100px;
         line-height: 90px;
         letter-spacing: -1px;
-    
     }
     
+
     .h1-p{
         font-size: 22px;
         width: 700px;
@@ -361,6 +358,7 @@ ul{
         top: 712px;
     }
 
+
     .section-div2{
         position: absolute;
         top: 555px;
@@ -374,14 +372,15 @@ ul{
     .h3-text{
         margin-top: 10px;
     }
+
+
     .pattern-2{
         width: 400px;
         height: 700px;
         margin-left: 320px;
         margin-top: -65px;
-        
-
     }
+
 
     .illustration{
         position: absolute;
@@ -389,6 +388,8 @@ ul{
         height: 900px;
         margin-top: -230px;
     }
+
+
   .footer-div1{
         position: absolute;
         width: 696px;
@@ -408,13 +409,15 @@ ul{
         justify-content: left;
         margin-left: 130px;
         margin-top: 90px;
-
   }
+
+
   .h5-text{
         position: absolute;
         left: -200px;
         top: -20px;
   }
+
 
   .footer-div4{
         position: absolute;
@@ -422,3 +425,12 @@ ul{
         left: 1025px;
         top: 23px;
   } 
+
+
+  /*Mobile View media Queries*/
+
+  @media (max-width: 480px) and (min-width: 320px) {
+    body{
+        background-color: orangered;
+        background-image: url("images/bg-main-tablet.png");
+    }
