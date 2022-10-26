@@ -300,12 +300,19 @@ ul{
 
 
   /*Tablet View Media Queries*/
+ 
+
+
   @media (max-width: 1199px) and (min-width: 769px) {
+    body{
+        background-color: green;
+        background-image: url("images/bg-main-tablet.png");
+    }
+    
     .body-div{
         height: 200px;
         width: 179px;
-        border-color: #f33809;
-        background-image: url("images/bg-main-tablet.png");
+          
     }
     
 
@@ -336,8 +343,8 @@ ul{
     }
     
     .h1-p{
-        font-size: 23px;
-        width: 755px;
+        font-size: 22px;
+        width: 700px;
         padding: 60px 10px;
         line-height: 30px;
         margin: 140px 22px;
@@ -345,44 +352,73 @@ ul{
         font-weight: 400;
     }
 
- 
-
+    
     .section-div1 {
         position: absolute;
-        width: 696px;
+        width: 996px;
         height: 834px;
-        left: 33px;
-        top: 832px;
+        left: -120px;
+        top: 712px;
     }
 
-  .footer-div1{
-    position: absolute;
-    width: 696px;
-    height: 143px;
-    left: 33px;
-    top: 2100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
+    .section-div2{
+        position: absolute;
+        top: 555px;
+        left: 337px;
+        width: 540px;
+        height:720px;
+        margin-top: -320px;
+    }
 
-    
+
+    .h3-text{
+        margin-top: 10px;
+    }
+    .pattern-2{
+        width: 400px;
+        height: 700px;
+        margin-left: 320px;
+        margin-top: -65px;
+        
+
+    }
+
+    .illustration{
+        position: absolute;
+        left: -40px;
+        height: 900px;
+        margin-top: -230px;
+    }
+  .footer-div1{
+        position: absolute;
+        width: 696px;
+        height: 143px;
+        left: -53px;
+        top: 2100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
   }
+
+ 
   .footer-div2{
-    width: 200px;
-    display:flex;
-    flex-direction: column;
-    justify-content: left;
+        width: 200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 130px;
+        margin-top: 90px;
 
   }
   .h5-text{
-    position: absolute;
-    left: -200px;
-    top: 100px;
+        position: absolute;
+        left: -200px;
+        top: -20px;
   }
 
   .footer-div4{
-    position: absolute;
-    display: flex;
-    left: 590px;
-    top: 130px;
-  }
+        position: absolute;
+        display: flex;
+        left: 1025px;
+        top: 23px;
+  } 
