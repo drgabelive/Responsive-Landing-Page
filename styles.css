@@ -301,7 +301,7 @@ ul{
 
   /*Tablet View Media Queries*/
  
-  @media (max-width: 1199px) and (min-width: 769px) {
+  @media (max-width: 1024px)/* and (min-width: 768px)*/ {
     body{
         background-image: url("images/bg-main-tablet.png");
     }
@@ -429,8 +429,42 @@ ul{
 
   /*Mobile View media Queries*/
 
-  @media (max-width: 480px) and (min-width: 320px) {
+  @media (max-width: 798px) and (min-width: 320px) {
     body{
         background-color: orangered;
         background-image: url("images/bg-main-tablet.png");
+    }
+
+    .body-div{
+        height: 150px;
+        width: 129px;    
+    }
+    
+
+    .equalizer{
+        position: absolute;
+        margin-left: -55px;
+        margin-top: 15px;
+    }
+
+    
+    .h1-text{
+        width: 595px;
+        height: 56px;
+        margin:130px -10px;
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: -1px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+
+    .h1-p{
+        font-size: 20px;
+        width: 400px;
+        padding: 60px 10px;
+        line-height: 25px;
+        margin: 140px -12px;
+        letter-spacing: 1px;
+        font-weight: 400;
     }
