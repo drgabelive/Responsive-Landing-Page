@@ -302,9 +302,9 @@ ul{
 
   @media (max-width: 798px) and (min-width: 320px) {
     body{
-       background-color: orange;
         background-image: url("images/bg-main-tablet.png");
     }
+
 
     .body-div{
         height: 150px;
@@ -318,6 +318,7 @@ ul{
         margin-top: 15px;
     }
 
+
     .pattern-1{
         position: absolute;
         float: right;
@@ -326,7 +327,6 @@ ul{
         margin-top: -80px; 
         left: 600px;
     }
-
 
     
     .div-sec{
@@ -338,6 +338,7 @@ ul{
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
   
+
     .h1-text{
         width: 400px;
         height: 56px;
@@ -359,6 +360,7 @@ ul{
         font-weight: 400;
         color: #191826;
     }
+
 
     .section-div1 {
         position: absolute;
@@ -395,6 +397,7 @@ ul{
         margin-top: 98px;
     }
 
+
     .h3-text{
         margin-top: -15px;
         margin-left: 30px;
@@ -418,7 +421,6 @@ ul{
         letter-spacing: 1.5px;
         color: #FCFAF9; 
         height: 40px;
-        
     }
 
 
@@ -433,8 +435,7 @@ ul{
         font-weight: 700;
         margin-bottom: 40px;
         margin-top:130px;
-        margin-left: 10px;
-        
+        margin-left: 10px; 
     }
 
 
@@ -447,6 +448,7 @@ ul{
         letter-spacing: 2px;
         margin-left: 18px;
     }
+
 
     .time {
         font-size: 1.8rem ;
@@ -469,7 +471,6 @@ ul{
         display: flex;
         flex-direction: row;
         padding-left: 110px;
-
     }
 
 
@@ -484,7 +485,6 @@ ul{
     }
 
 
-
     .div6-button2 {
         background-color:antiquewhite; 
         height: 80px;
@@ -496,6 +496,7 @@ ul{
         flex-direction: row;
         padding-left: 90px;
     }
+
 
     .andriod{
         position:absolute;
@@ -546,8 +547,7 @@ ul{
         position: absolute;
         display: flex;
         left: 135px;
-        top: 163px;
-        
+        top: 163px;  
   } 
 
 
