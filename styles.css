@@ -297,141 +297,11 @@ ul{
 }
 
 
-
-
-  /*Tablet View Media Queries*/
- 
-  @media (max-width: 1024px)/* and (min-width: 768px)*/ {
-    body{
-        background-image: url("images/bg-main-tablet.png");
-    }
-    
-
-    .body-div{
-        height: 200px;
-        width: 179px;    
-    }
-    
-
-    .equalizer{
-        position: absolute;
-        margin-left: -15px;
-        margin-top: 15px;
-    }
-
-
-    .pattern-1{
-        position: absolute;
-        width: 326.67px;
-        height: 500px;
-        left: 870px;
-        top: 62px;
-    }
-
-
-    .h1-text{
-        width: 795px;
-        height: 106px;
-        margin:130px 20px;
-        font-size: 100px;
-        line-height: 90px;
-        letter-spacing: -1px;
-    }
-    
-
-    .h1-p{
-        font-size: 22px;
-        width: 700px;
-        padding: 60px 10px;
-        line-height: 30px;
-        margin: 140px 22px;
-        letter-spacing: 1px;
-        font-weight: 400;
-    }
-
-    
-    .section-div1 {
-        position: absolute;
-        width: 996px;
-        height: 834px;
-        left: -120px;
-        top: 712px;
-    }
-
-
-    .section-div2{
-        position: absolute;
-        top: 555px;
-        left: 337px;
-        width: 540px;
-        height:720px;
-        margin-top: -320px;
-    }
-
-
-    .h3-text{
-        margin-top: 10px;
-    }
-
-
-    .pattern-2{
-        width: 400px;
-        height: 700px;
-        margin-left: 320px;
-        margin-top: -65px;
-    }
-
-
-    .illustration{
-        position: absolute;
-        left: -40px;
-        height: 900px;
-        margin-top: -230px;
-    }
-
-
-  .footer-div1{
-        position: absolute;
-        width: 696px;
-        height: 143px;
-        left: -53px;
-        top: 2100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
-  }
-
- 
-  .footer-div2{
-        width: 200px;
-        display:flex;
-        flex-direction: column;
-        justify-content: left;
-        margin-left: 130px;
-        margin-top: 90px;
-  }
-
-
-  .h5-text{
-        position: absolute;
-        left: -200px;
-        top: -20px;
-  }
-
-
-  .footer-div4{
-        position: absolute;
-        display: flex;
-        left: 1025px;
-        top: 23px;
-  } 
-
-
   /*Mobile View media Queries*/
 
   @media (max-width: 798px) and (min-width: 320px) {
     body{
-        background-color: orangered;
+       background-color: orange;
         background-image: url("images/bg-main-tablet.png");
     }
 
@@ -446,38 +316,42 @@ ul{
         margin-left: -55px;
         margin-top: 15px;
     }
-
-    
+.div-sec{
+    position: absolute;
+    width: 327px;
+    height: 320px;
+    left: 54px;
+    top: 136px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+  
     .h1-text{
-        width: 595px;
+        width: 400px;
         height: 56px;
         margin:130px -10px;
-        font-size: 85px;
+        font-size: 60px;
+        font-weight: 700;
         line-height: 80px;
-        letter-spacing: -1px;
+        letter-spacing: -0.454545px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     
 
     .h1-p{
-        position: absolute;
         font-size: 20px;
         font-style: normal;
-        width: 450px;
-        height: 56px;
-        padding: 60px 10px;
+        width: 460px;
+        margin: 220px 1px;       
         line-height: 26px;
-        margin: 10px -12px;
-        letter-spacing: 1px;
         font-weight: 400;
         color: #191826;
     }
 
     .section-div1 {
         position: absolute;
-        width: 996px;
+        width: 906px;
         height: 834px;
-        left: -50px;
+        left: -10px;
         top: 612px;
     }
 
@@ -485,14 +359,14 @@ ul{
     .pattern-2{
         width: 460px;
         height: 700px;
-        margin-left:90px;
+        margin-left:80px;
         margin-top: 1px;
     }
 
 
     .illustration{
         position: absolute;
-        left: -10px;
+        left: -32px;
         height: 760px;
         width: 400px;
         margin-top: -200px;
@@ -504,13 +378,19 @@ ul{
         top: 540px;
         left: -1px;
         width: 740px;
-        height:720px;
+        height:780px;
         margin-top: 98px;
     }
 
     .h3-text{
         margin-top: -15px;
+        margin-left: 30px;
         font-size: 50px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 40px;
     }
 
 
@@ -520,16 +400,18 @@ ul{
         font-weight: 300;
         font-size: 26px;
         margin-left: 70px;
-        margin-top: -20px;
+        margin-top: 20px;
         line-height: 37px;
         letter-spacing: 1.5px;
         color: #FCFAF9; 
+        height: 170px;
+        width: 750px;
     }
 
 
     .amount {
         color: white;
-        font-size: 90px;
+        font-size: 120px;
         line-height: 1px;
         display: flex;
         align-items: center;
@@ -537,6 +419,7 @@ ul{
         font-style: normal;
         font-weight: 700;
         margin-bottom: 40px;
+        margin-top:20px;
         margin-left: 10px;
         
     }
@@ -560,6 +443,56 @@ ul{
         font-family: 'IBM Plex Sans';
         font-weight: 400;
         font-style: normal;
+    }
+
+ 
+    .div6-button1 {
+        background-color: #191826;
+        height: 80px;
+        width: 600px;
+        border-radius: 18px;
+        margin-top: -10px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding-left: 190px;
+
+    }
+
+
+    .ios{
+        position: absolute;
+        font-size: 26px;
+        color:#FCFAF9;
+        margin-left: 10px;
+        font-weight: 900;
+        font-family: 'IBM Plex Sans';
+        left: 284px;
+    }
+
+
+    }
+    .div6-button2 {
+        background-color:antiquewhite; 
+        height: 80px;
+        width: 600px;
+        border-radius: 18px;
+        margin-top: 2px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding-left: 175px;
+    }
+
+    .andriod{
+        position:absolute;
+        font-size: 26px;
+        color:#191826;
+        margin-left: 10px;
+        font-weight: 900;
+        font-family: 'IBM Plex Sans';
+        left: 260px;
+        
     }
 
  
@@ -600,3 +533,9 @@ ul{
         left: 125px;
         top: 123px;
   } 
+
+
+
+
+
+
