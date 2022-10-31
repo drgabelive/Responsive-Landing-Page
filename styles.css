@@ -297,6 +297,7 @@ ul{
 }
 
 
+
   /*Mobile View media Queries*/
 
   @media (max-width: 798px) and (min-width: 320px) {
@@ -313,7 +314,7 @@ ul{
 
     .equalizer{
         position: absolute;
-        margin-left: -55px;
+        margin-left: -40px;
         margin-top: 15px;
     }
 
@@ -327,7 +328,7 @@ ul{
     }
 
 
-    }
+    
     .div-sec{
         position: absolute;
         width: 327px;
@@ -380,7 +381,7 @@ ul{
         position: absolute;
         left: -52px;
         height: 760px;
-        width: 350px;
+        width: 370px;
         margin-top: -200px;
     }
 
@@ -389,7 +390,7 @@ ul{
         position: absolute;
         top: 540px;
         left: -1px;
-        width: 740px;
+        width: 574px;
         height:780px;
         margin-top: 98px;
     }
@@ -410,20 +411,20 @@ ul{
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 300;
-        font-size: 26px;
+        font-size: 20px;
         margin-left: 70px;
         margin-top: 20px;
         line-height: 37px;
         letter-spacing: 1.5px;
         color: #FCFAF9; 
-        height: 170px;
-        width: 750px;
+        height: 190px;
+        width: 400px;
     }
 
 
     .amount {
         color: white;
-        font-size: 120px;
+        font-size: 100px;
         line-height: 1px;
         display: flex;
         align-items: center;
@@ -461,13 +462,13 @@ ul{
     .div6-button1 {
         background-color: #191826;
         height: 80px;
-        width: 600px;
+        width: 430px;
         border-radius: 18px;
         margin-top: -10px;
         align-items: center;
         display: flex;
         flex-direction: row;
-        padding-left: 190px;
+        padding-left: 110px;
 
     }
 
@@ -479,21 +480,21 @@ ul{
         margin-left: 10px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 284px;
+        left: 200px;
     }
 
 
-    }
+
     .div6-button2 {
         background-color:antiquewhite; 
         height: 80px;
-        width: 600px;
+        width: 430px;
         border-radius: 18px;
         margin-top: 2px;
         align-items: center;
         display: flex;
         flex-direction: row;
-        padding-left: 175px;
+        padding-left: 90px;
     }
 
     .andriod{
@@ -503,7 +504,7 @@ ul{
         margin-left: 10px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 260px;
+        left: 180px;
         
     }
 
@@ -513,7 +514,7 @@ ul{
         width: 696px;
         height: 143px;
         left: -83px;
-        top: 2420px;
+        top: 2450px;
         display: flex;
         flex-direction: column;
         justify-content: left;
@@ -535,15 +536,18 @@ ul{
         left: -200px;
         top: -20px;
         font-size: 20px;
-        width: 440px;
+        width: 330px;
+        line-height: 30px;
+        margin:180px 330px;
   }
 
 
   .footer-div4{
         position: absolute;
         display: flex;
-        left: 125px;
-        top: 123px;
+        left: 135px;
+        top: 163px;
+        
   } 
 
 
