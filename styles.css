@@ -411,14 +411,14 @@ ul{
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 300;
-        font-size: 20px;
-        margin-left: 70px;
-        margin-top: 20px;
-        line-height: 37px;
+        font-size: 18px;
+        width: 380px;
+        line-height: 30px;
+        margin:30px 70px;
         letter-spacing: 1.5px;
         color: #FCFAF9; 
-        height: 190px;
-        width: 400px;
+        height: 40px;
+        
     }
 
 
@@ -432,7 +432,7 @@ ul{
         font-style: normal;
         font-weight: 700;
         margin-bottom: 40px;
-        margin-top:20px;
+        margin-top:130px;
         margin-left: 10px;
         
     }
