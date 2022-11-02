@@ -546,14 +546,15 @@ ul{
         position: absolute;
         display: flex;
         left: 135px;
-        top: 163px;  
+        top: 153px;  
+     
   } 
 }
 
 
 /*tablet view*/
 
-@media (max-width: 768px) and (min-width: 481px) {
+@media (min-width: 481px) and (max-width: 768px) {
     body{
         background-image: url("images/bg-main-tablet.png");
     }
@@ -690,6 +691,7 @@ ul{
         display: flex;
         flex-direction: column;
         justify-content: left;
+        padding-bottom: 20px;
   }
 
  
@@ -713,6 +715,7 @@ ul{
         display: flex;
         left: 1025px;
         top: 23px;
+    
   } 
 
 }
