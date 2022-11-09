@@ -16,8 +16,6 @@ html, body {
     background-size:cover;
     margin: 2px;
     padding: 20px 20px;
-    
-
 }
 
 
@@ -223,6 +221,7 @@ ul{
 
 .div6-button1:hover{
     background-color: #66e2dc;
+    border: none;
 }
 
 
@@ -253,6 +252,7 @@ ul{
 
 .div6-button2:hover{
     background-color: #FFB964;
+    border: none;
 }
 
 
@@ -284,6 +284,15 @@ ul{
     line-height: 34px;
 }
 
+/* work on fbk icon hovering color
+.h5-fbk:hover{
+background: none;
+background-color: #FA7453;
+}
+.h5-ig:hover{
+    background-color: #FA7453;
+    border: none;
+}*/
 
 .footer-div4 {
     display:flex;
@@ -295,6 +304,7 @@ ul{
     left: 1499px;
     padding: -0px;
 }
+
 
 
 
