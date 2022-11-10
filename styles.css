@@ -308,7 +308,7 @@ ul{
   @media (max-width: 480px)/* and (min-width: 220px) */{
     body{
         background-image: url("images/bg-main-mobile.png");
-        width: 100px;
+       
     }
 
 
@@ -550,9 +550,8 @@ ul{
         position: absolute;
         left: -200px;
         top: -50px;
-        font-size: 10px;
-        width:200px;
-        min-width: 40px;
+        font-size: 10.8px;
+        width:178px;        
         line-height: 20px;
         margin:180px 330px;
   }
@@ -562,7 +561,7 @@ ul{
         position: absolute;
         display: flex;
         left: 135px;
-        top: 30px;  
+        top: 50px;  
   } 
 }
 
