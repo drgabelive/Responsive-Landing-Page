@@ -284,15 +284,6 @@ ul{
     line-height: 34px;
 }
 
-/* work on fbk icon hovering color
-.h5-fbk:hover{
-background: none;
-background-color: #FA7453;
-}
-.h5-ig:hover{
-    background-color: #FA7453;
-    border: none;
-}*/
 
 .footer-div4 {
     display:flex;
@@ -306,66 +297,73 @@ background-color: #FA7453;
 }
 
 
+.h5-ig:hover{
+    color:#FA7453;
+}
+
 
 
           /*Mobile View media Queries*/
 
-  @media (max-width: 480px) and (min-width: 220px) {
+  @media (max-width: 480px)/* and (min-width: 220px) */{
     body{
-        background-image: url("images/bg-main-tablet.png");
+        background-image: url("images/bg-main-mobile.png");
+        width: 100px;
     }
 
 
     .body-div{
-        width: 480px;    
+        width: 100px;    
     }
     
 
     .equalizer{
         position: absolute;
-        margin-left: -40px;
-        margin-top: 15px;
+        margin-left: -70px;
+        margin-top: -35px;
+        width: 80px;
+
     }
 
 
     .pattern-1{
         position: absolute;
         float: right;
-        Width: 312px;
-        Height: 488px;
+        Width: 200px;
+        Height: 258px;
         margin-top: -80px; 
-        left: 600px;
+        left: 200px;
     }
 
     
     .div-sec{
         position: absolute;
-        width: 327px;
-        height: 320px;
-        left: 54px;
-        top: 136px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        width: 127px;
+        height: 220px;
+        left: 24px;
+        top: 6px;
+        filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
     }
   
 
     .h1-text{
-        width: 400px;
-        height: 56px;
-        margin:130px -10px;
-        font-size: 60px;
+        width: 150px;
+        height: 26px;
+        margin:110px -10px;
+        font-size: 22px;
         font-weight: 700;
-        line-height: 80px;
+        line-height: 40px;
         letter-spacing: -0.454545px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     }
     
 
     .h1-p{
-        font-size: 20px;
+        font-size: 8px;
         font-style: normal;
-        width: 460px;
-        margin: 220px 1px;       
-        line-height: 26px;
+        width: 170px;
+        margin: 90px -10px;       
+        line-height: 20px;
         font-weight: 400;
         color: #191826;
     }
@@ -373,48 +371,48 @@ background-color: #FA7453;
 
     .section-div1 {
         position: absolute;
-        width: 570px;
-        height: 834px;
-        left: -20px;
-        top: 612px;
+        width: 200px;
+        height: 400px;
+        left: -150px;
+        top: 92px;
     }
 
 
     .pattern-2{
-        width: 460px;
-        height: 700px;
-        margin-left:50px;
+        width: 160px;
+        height: 280px;
+        margin-left:20px;
         margin-top: 1px;
     }
 
 
     .illustration{
         position: absolute;
-        left: -52px;
-        height: 760px;
-        width: 370px;
-        margin-top: -200px;
+        left: -115px;
+        height: 320px;
+        width: 130px;
+        margin-top: -100px;
     }
 
 
     .section-div2{
         position: absolute;
-        top: 540px;
+        top: 160px;
         left: -1px;
-        width: 574px;
-        height:780px;
+        width: 202px;
+        height:400px;
         margin-top: 98px;
     }
 
 
     .h3-text{
         margin-top: -15px;
-        margin-left: 30px;
-        font-size: 50px;
+        margin-left: -30px;
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 52px;
+        font-size: 18px;
+        width: 180px;
         line-height: 40px;
     }
 
@@ -423,19 +421,18 @@ background-color: #FA7453;
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 300;
-        font-size: 18px;
-        width: 380px;
-        line-height: 30px;
-        margin:30px 70px;
+        font-size: 9px;
+        width: 260px;
+        line-height: 15px;
+        margin:-40px 14px;
         letter-spacing: 1.5px;
         color: #FCFAF9; 
         height: 40px;
     }
 
-
     .amount {
         color: white;
-        font-size: 100px;
+        font-size: 45px;
         line-height: 1px;
         display: flex;
         align-items: center;
@@ -443,8 +440,8 @@ background-color: #FA7453;
         font-style: normal;
         font-weight: 700;
         margin-bottom: 40px;
-        margin-top:130px;
-        margin-left: 10px; 
+        margin-top:30px;
+        margin-left: -50px; 
     }
 
 
@@ -452,10 +449,10 @@ background-color: #FA7453;
         color: white;
         margin-bottom: 10px;
         font-family: 'IBM Plex Sans'; 
-        font-size: 26px;
+        font-size: 12px;
         font-weight: 0;
         letter-spacing: 2px;
-        margin-left: 18px;
+        margin-left: 10px;
     }
 
 
@@ -472,49 +469,52 @@ background-color: #FA7453;
  
     .div6-button1 {
         background-color: #191826;
-        height: 80px;
-        width: 430px;
-        border-radius: 18px;
-        margin-top: -10px;
+        height: 50px;
+        width: 170px;
+        border-radius: 8px;
+        margin-top: -50px;
+        margin-left: -10px;
         align-items: center;
         display: flex;
         flex-direction: row;
-        padding-left: 110px;
+        padding-left: 40px;
+       
     }
 
 
     .ios{
         position: absolute;
-        font-size: 26px;
+        font-size: 13px;
         color:#FCFAF9;
         margin-left: 10px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 200px;
+        left: 65px;
     }
 
 
     .div6-button2 {
         background-color:antiquewhite; 
-        height: 80px;
-        width: 430px;
-        border-radius: 18px;
-        margin-top: 2px;
+        height: 50px;
+        width: 170px;
+        border-radius: 8px;
+        margin-top: -10px;
+        margin-left: -10px;
         align-items: center;
         display: flex;
         flex-direction: row;
-        padding-left: 90px;
+        padding-left: 30px;
     }
 
 
     .andriod{
-        position:absolute;
-        font-size: 26px;
+        position: absolute;
+        font-size: 13px;
         color:#191826;
         margin-left: 10px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 180px;
+        left: 55px;
         
     }
 
@@ -523,11 +523,16 @@ background-color: #FA7453;
         position: absolute;
         width: 696px;
         height: 143px;
-        left: -83px;
-        top: 2450px;
+        left: -113px;
+        top: 1190px;
         display: flex;
         flex-direction: column;
         justify-content: left;
+  }
+
+
+  .footer-equalizer{
+    width: 70px;
   }
 
  
@@ -544,10 +549,11 @@ background-color: #FA7453;
   .h5-text{
         position: absolute;
         left: -200px;
-        top: -20px;
-        font-size: 20px;
-        width: 330px;
-        line-height: 30px;
+        top: -50px;
+        font-size: 10px;
+        width:200px;
+        min-width: 40px;
+        line-height: 20px;
         margin:180px 330px;
   }
 
@@ -556,7 +562,7 @@ background-color: #FA7453;
         position: absolute;
         display: flex;
         left: 135px;
-        top: 153px;  
+        top: 30px;  
   } 
 }
 
