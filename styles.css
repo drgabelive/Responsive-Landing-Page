@@ -432,7 +432,7 @@ ul{
 
     .amount {
         color: white;
-        font-size: 45px;
+        font-size: 60px;
         line-height: 1px;
         display: flex;
         align-items: center;
@@ -440,7 +440,7 @@ ul{
         font-style: normal;
         font-weight: 700;
         margin-bottom: 40px;
-        margin-top:30px;
+        margin-top:50px;
         margin-left: -20px; 
     }
 
@@ -470,15 +470,21 @@ ul{
     .div6-button1 {
         background-color: #191826;
         height: 50px;
-        width: 170px;
+        width: 250px;
         border-radius: 8px;
-        margin-top: -50px;
-        margin-left: -10px;
+        margin-top: -30px;
+        margin-left: -2px;
         align-items: center;
         display: flex;
         flex-direction: row;
         padding-left: 40px;
-       
+    }
+
+
+    .apple{
+        height: 18px;
+        width: 18px;
+        margin-left: 35px;
     }
 
 
@@ -489,21 +495,26 @@ ul{
         margin-left: 10px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 65px;
+        left: 10px;
     }
 
 
     .div6-button2 {
         background-color:antiquewhite; 
         height: 50px;
-        width: 170px;
+        width: 250px;
         border-radius: 8px;
         margin-top: -10px;
-        margin-left: -10px;
+        margin-left: 0px;
         align-items: center;
         display: flex;
-        flex-direction: row;
-        padding-left: 30px;
+        flex-direction: row;     
+    }
+
+
+    .andriod{
+        height: 20px;
+        width: 20px;
     }
 
 
