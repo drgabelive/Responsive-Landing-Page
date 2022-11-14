@@ -94,7 +94,8 @@ ul{
 
 
 .pattern-2{
-    display: block;
+    display: grid;
+    grid-template-columns: auto auto;
     width:330px;
     height:520px;
     padding-top: auto;
@@ -301,16 +302,276 @@ ul{
 
 
 .h5-fbk:hover{
-    color:#FA7453;   
+    fill:#FA7453; 
+   
+    
 }
 
+svg{
+    fill:"#191826"
+}
 
+  
+@media screen and (max-width: 840px) {/*Media Queries for Tablet View*/
+    html, body {
+        background-size:cover;          
+        background-image: url("images/bg-main-tablet.png");
+    
+    }
+    
+    
+    .body-div{
+        width: 768px;    
+    }                    
+         
+    
+    .equalizer{
+        position: absolute;
+        margin-left: -50px;
+        margin-top: 15px;
+    }
+    
+    
+    .pattern-1{
+        position: absolute;
+        width: 220px;
+        height: 450px;
+        left: 620px;
+        top: 78px;
+    }
+    
+    
+    .h1-text{
+        width: 650px;
+        height: 106px;
+        margin:130px -10px;
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: -1px;
+    }
+    
+    
+    .h1-p{
+        font-size: 20px;
+        width: 630px;     
+        line-height: 30px;
+        margin: 90px -10px;
+        letter-spacing: 1px;
+        font-weight: 400;
+    }
+    
+    
+    
+    .section-div1 {
+        position: absolute;
+        width: 756px;
+        height: 734px;
+        left: -170px;
+        top: 412px;
+    }
+    
+    
+    .pattern-2{
+        width: 370px;
+        height: 520px;
+        margin-left:180px;
+        margin-top: -40px;
+    }
+    
+    
+    .illustration{
+        position: absolute;
+        margin-left: 55px;
+        height: 620px;
+        width: 270px;
+        margin-top: -120px;
+    }
+    
+    
+    .section-div2{
+        position: absolute;
+        top: 160px;
+        left: 230px;
+        width: 470px;
+        height:650px;
+        margin-top: 30px;
+        border-radius: 14px;
+    }
+    
+    
+    .h3-text{
+        margin-top: -10px;
+        margin-left: 10px;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        width: 450px;
+        line-height: 40px;
+    }
+    
+    
+    .div3-p {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        width: 470px;
+        line-height: 25px;
+        margin:-50px 52px;
+        letter-spacing: 1.7px;
+        color: #FCFAF9; 
+        height: 40px;
+    }
+    
+    .amount {
+        color: white;
+        font-size: 110px;
+        line-height: 1px;
+        display: flex;
+        align-items: center;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 40px;
+        margin-top:150px;
+        margin-left: -10px; 
+    }
+    
+    
+    .amount > span {
+        color: white;
+        margin-bottom: 10px;
+        font-family: 'IBM Plex Sans'; 
+        font-size: 20px;
+        font-weight: 0;
+        letter-spacing: 2px;
+        margin-left: 10px;
+    }
+    
+    
+    .time {
+        font-size: 1.8rem ;
+        margin-bottom: 50px;
+        line-height: 38px;
+        top: calc(100% - 100px/2 - 1px);
+        font-family: 'IBM Plex Sans';
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    
+    .div6-button1 {
+        background-color: #191826;
+        height: 60px;
+        width: 360px;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin-left: -2px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        padding-left: 40px;
+    }
+    
+    
+    .apple{
+        height: 22px;
+        width: 18px;
+        margin-left: 70px;
+    }
+    
+    
+    .ios{
+        position: absolute;
+        font-size: 18px;
+        color:#FCFAF9;
+        margin-left: 90px;
+        font-weight: 900;
+        font-family: 'IBM Plex Sans';
+        left: 100px;
+    }
+    
+    
+    .div6-button2 {
+        background-color:antiquewhite; 
+        height: 60px;
+        width: 360px;
+        border-radius: 8px;
+        margin-top: -10px;
+        margin-left: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;     
+    }
+    
+    
+    .andriod-i{
+        height: 22px;
+        width: 18px;
+        margin-left: 80px;
+    
+    }
+    
+    
+    .andriod{
+        position: absolute;
+        font-size: 18px;
+        color:#191826;
+        margin-left: 110px;
+        font-weight: 900;
+        font-family: 'IBM Plex Sans';  
+    }
+    
+    
+    .footer-div1{
+        position: absolute;
+        width: 696px;
+        height: 143px;
+        left: -93px;
+        top: 1700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        padding-bottom: 20px;
+    }
+    
+    
+    .footer-div2{
+        width: 200px;
+        display:flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-left: 130px;
+        margin-top: 90px;
+    }
+    
+    
+    .h5-text{
+        position: absolute;
+        left: -200px;
+        top: -20px;
+    }
+    
+    
+    .footer-div4{
+        position: absolute;
+        display: flex;
+        left: 775px;
+        top: 23px;
+    } 
+    
+    }
+                    
+        
+    
+    
 
- @media screen and (max-width: 480px) {  /*Mobile View media Queries*/  
+ @media screen and (max-width: 600px) {  /*Mobile View media Queries*/  
 html, body {
-    background-size:cover;
-             
-    background-image: url("images/bg-main-mobile.png");                   
+    background-size:cover;         
+    background-image: url("images/bg-main-mobile.png"); 
+                     
  }
             
             
@@ -318,7 +579,7 @@ html, body {
     height: 205px;
     width: 165px;
     padding-top: 20px;
-    right: -450px;
+    padding-right: -450px;
     background-image: url("images/bg-main-mobile.png");
  }
                 
@@ -587,258 +848,4 @@ html, body {
 }
 }
 
-    
-@media (max-width: 840px) {/*Media Queries for Tablet View*/
-html, body {
-    background-size:cover;
-    margin: 20px 20px;
-    padding: 20px 20px;           
-    background-image: url("images/bg-main-tablet.png");
-}
-
-
-.body-div{
-    width: 768px;    
-}                    
-     
-
-.equalizer{
-    position: absolute;
-    margin-left: -50px;
-    margin-top: 15px;
-}
-
-
-.pattern-1{
-    position: absolute;
-    width: 220px;
-    height: 450px;
-    left: 620px;
-    top: 78px;
-}
-
-
-.h1-text{
-    width: 650px;
-    height: 106px;
-    margin:130px -10px;
-    font-size: 70px;
-    line-height: 70px;
-    letter-spacing: -1px;
-}
-
-
-.h1-p{
-    font-size: 20px;
-    width: 630px;     
-    line-height: 30px;
-    margin: 90px -10px;
-    letter-spacing: 1px;
-    font-weight: 400;
-}
-
-
-
-.section-div1 {
-    position: absolute;
-    width: 756px;
-    height: 734px;
-    left: -170px;
-    top: 412px;
-}
-
-
-.pattern-2{
-    width: 370px;
-    height: 520px;
-    margin-left:180px;
-    margin-top: -40px;
-}
-
-
-.illustration{
-    position: absolute;
-    margin-left: 55px;
-    height: 620px;
-    width: 270px;
-    margin-top: -120px;
-}
-
-
-.section-div2{
-    position: absolute;
-    top: 160px;
-    left: 230px;
-    width: 470px;
-    height:650px;
-    margin-top: 30px;
-    border-radius: 14px;
-}
-
-
-.h3-text{
-    margin-top: -10px;
-    margin-left: 10px;
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    width: 450px;
-    line-height: 40px;
-}
-
-
-.div3-p {
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    width: 470px;
-    line-height: 25px;
-    margin:-50px 52px;
-    letter-spacing: 1.7px;
-    color: #FCFAF9; 
-    height: 40px;
-}
-
-.amount {
-    color: white;
-    font-size: 110px;
-    line-height: 1px;
-    display: flex;
-    align-items: center;
-    font-family: 'IBM Plex Sans';
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 40px;
-    margin-top:150px;
-    margin-left: -10px; 
-}
-
-
-.amount > span {
-    color: white;
-    margin-bottom: 10px;
-    font-family: 'IBM Plex Sans'; 
-    font-size: 20px;
-    font-weight: 0;
-    letter-spacing: 2px;
-    margin-left: 10px;
-}
-
-
-.time {
-    font-size: 1.8rem ;
-    margin-bottom: 50px;
-    line-height: 38px;
-    top: calc(100% - 100px/2 - 1px);
-    font-family: 'IBM Plex Sans';
-    font-weight: 400;
-    font-style: normal;
-}
-
-
-.div6-button1 {
-    background-color: #191826;
-    height: 60px;
-    width: 360px;
-    border-radius: 8px;
-    margin-top: 20px;
-    margin-left: -2px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    padding-left: 40px;
-}
-
-
-.apple{
-    height: 22px;
-    width: 18px;
-    margin-left: 70px;
-}
-
-
-.ios{
-    position: absolute;
-    font-size: 18px;
-    color:#FCFAF9;
-    margin-left: 90px;
-    font-weight: 900;
-    font-family: 'IBM Plex Sans';
-    left: 100px;
-}
-
-
-.div6-button2 {
-    background-color:antiquewhite; 
-    height: 60px;
-    width: 360px;
-    border-radius: 8px;
-    margin-top: -10px;
-    margin-left: 0px;
-    align-items: center;
-    display: flex;
-    flex-direction: row;     
-}
-
-
-.andriod-i{
-    height: 22px;
-    width: 18px;
-    margin-left: 80px;
-
-}
-
-
-.andriod{
-    position: absolute;
-    font-size: 18px;
-    color:#191826;
-    margin-left: 110px;
-    font-weight: 900;
-    font-family: 'IBM Plex Sans';  
-}
-
-
-.footer-div1{
-    position: absolute;
-    width: 696px;
-    height: 143px;
-    left: -93px;
-    top: 1700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    padding-bottom: 20px;
-}
-
-
-.footer-div2{
-    width: 200px;
-    display:flex;
-    flex-direction: column;
-    justify-content: left;
-    margin-left: 130px;
-    margin-top: 90px;
-}
-
-
-.h5-text{
-    position: absolute;
-    left: -200px;
-    top: -20px;
-}
-
-
-.footer-div4{
-    position: absolute;
-    display: flex;
-    left: 775px;
-    top: 23px;
-} 
-
-}
-                
-    
-
+ 
