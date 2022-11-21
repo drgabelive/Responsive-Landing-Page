@@ -552,6 +552,7 @@ svg{
         position: absolute;
         left: -200px;
         top: -20px;
+        margin-bottom: 50px;
     }
     
     
@@ -560,9 +561,7 @@ svg{
         display: flex;
         left: 775px;
         top: 23px;
-        margin-bottom: 20px;
     } 
-    
     }
                     
         
@@ -846,7 +845,7 @@ html, body {
     flex-direction: row;
     justify-content: space-evenly;
     left: 130px;
-    padding-bottom: 50px;       
+    padding-bottom: 30px;       
 }
 }
 
