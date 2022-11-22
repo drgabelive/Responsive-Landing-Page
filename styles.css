@@ -738,10 +738,10 @@ html, body {
 
 .div6-button1 {
     background-color: #191826;
-    height: 50px;
-    width: 250px;
+    height: 40px;
+    width: 200px;
     border-radius: 8px;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-left: -2px;
     align-items: center;
     display: flex;
@@ -753,7 +753,7 @@ html, body {
 .apple{
     height: 18px;
     width: 18px;
-    margin-left: 35px;
+    margin-left: 10px;
 }
 
 
@@ -770,10 +770,10 @@ html, body {
 
 .div6-button2 {
     background-color:antiquewhite; 
-    height: 50px;
-    width: 250px;
+    height: 40px;
+    width: 200px;
     border-radius: 8px;
-    margin-top: -10px;
+    margin-top: -2px;
     margin-left: 0px;
     align-items: center;
     display: flex;
@@ -782,9 +782,9 @@ html, body {
 
 
 .andriod-i{
-    height: 20px;
-    width: 20px;
-    margin-left: 50px;
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
 
 }
 
@@ -793,7 +793,7 @@ html, body {
     position: absolute;
     font-size: 13px;
     color:#191826;
-    margin-left: 80px;
+    margin-left: 50px;
     font-weight: 900;
     font-family: 'IBM Plex Sans';
 
