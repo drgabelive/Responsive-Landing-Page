@@ -313,7 +313,7 @@ svg{
 }
 
   
-@media screen and (max-width: 768px) {/*Media Queries for Tablet View*/
+@media screen and (max-width: 768px) and (min-width: 481px){/*Media Queries for Tablet View*/
     html, body {
         background-size:cover;          
         background-image: url("images/bg-main-tablet.png");
@@ -328,33 +328,34 @@ svg{
     
     .equalizer{
         position: absolute;
-        margin-left: -50px;
+        margin-left: -70px;
         margin-top: 15px;
+        height: 20px;
     }
     
     
     .pattern-1{
         position: absolute;
-        width: 220px;
-        height: 450px;
-        left: 620px;
-        top: 78px;
+        width: 170px;
+        height: 250px;
+        left: 330px;
+        top: 30px;
     }
     
     
     .h1-text{
-        width: 650px;
+        width: 360px;
         height: 106px;
-        margin:130px -10px;
-        font-size: 70px;
-        line-height: 70px;
+        margin:70px 10px;
+        font-size: 40px;
+        line-height: 45px;
         letter-spacing: -1px;
     }
     
     
     .h1-p{
-        font-size: 20px;
-        width: 630px;     
+        font-size: 16px;
+        width: 430px;     
         line-height: 30px;
         margin: 90px -10px;
         letter-spacing: 1px;
@@ -527,7 +528,7 @@ svg{
     
     .footer-div1{
         position: absolute;
-        width: 696px;
+        width: 196px;
         height: 143px;
         left: -93px;
         top: 1700px;
@@ -559,7 +560,7 @@ svg{
     .footer-div4{
         position: absolute;
         display: flex;
-        left: 775px;
+        left: 75px;
         top: 23px;
     } 
     }
