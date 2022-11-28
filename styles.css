@@ -79,7 +79,7 @@ ul{
     Width: 240px;
     Height: 468px;
     margin-top: -50px; 
-    left: 990px;
+    left: 1100px;
     
 }
 
@@ -107,7 +107,7 @@ ul{
 
 .section-div1 {
     background-color: #191826;
-    width: 1000px; 
+    width: 1100px; 
     border-radius: 15px;
     height: 680px;
     Top: 157px;
@@ -121,7 +121,7 @@ ul{
 .section-div2{
     background-color: #FA7453;
     Top:-268px;
-    width: 330px;
+    width: 420px;
     height: 660px;
     border-radius: 12px;
     margin-left: 590px;
@@ -140,7 +140,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 34px;
-    margin-left: -15px;
+    margin-left: 15px;
     padding: 25px;
 }
 
@@ -156,7 +156,7 @@ ul{
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: -20px;
     line-height: 28px;
     letter-spacing: 1px;
@@ -181,7 +181,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     margin-bottom: 40px;
-    margin-left: -10px;
+    margin-left: 10px;
     
 }
 
@@ -285,7 +285,7 @@ ul{
     font-size: 14px;
     left: 25.68%;
     margin-top: 200px;
-    margin-left: 110px; 
+    margin-left: 210px; 
     line-height: 34px;
 }
 
@@ -297,7 +297,7 @@ ul{
     margin-top: 200px;
     width: 100px;
     height: 20px;
-    margin-left: 1020px; 
+    margin-left: 1120px; 
 }
 
 
