@@ -13,20 +13,22 @@
 }
 
 
-html, body {
-    background-size:cover;
+  body, html { 
+    background-size:auto;
     margin: 2px 2px;
-    padding: 20px 20px;
+    
    
-}
+} 
 
 
 .body-div{
-    height: 1458px;
-    width: 1600px;
+    height: 1758px;
+    width: 1190px;
     padding-top: 30px;
-    right: -50px;
+    right: -5px;
+    left: 1054px;
     background-image: url("images/bg-main-mobile.png");
+    background-size: cover;
 }
 
 
@@ -38,19 +40,19 @@ ul{
 
 
 .equalizer {
-    margin: 20px 162px;
+    margin: 20px 50px;
     width: 180px;
 }
 
 
 .h1-text{
-    width: 1115px;
+    width: 870px;
     height: 196px;
-    margin:110px 200px;
+    margin:110px 100px;
     font-family: 'IBM Plex Sans';
     font-weight: 700;
-    font-size: 110px;
-    line-height: 118px;
+    font-size: 70px;
+    line-height: 90px;
     letter-spacing: -1px;
     color: #191826
     
@@ -59,14 +61,14 @@ ul{
 
 
 .h1-p{
-    width: 1000px;
+    width: 780px;
     height: 102px;
-    margin: 100px 210px;
+    margin: -70px 100px;
     font-family: 'IBM Plex Sans';
     font-weight: light;
-    font-size: 22px;
-    line-height: 34px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
     color: #191826;
 }
 
@@ -74,10 +76,10 @@ ul{
 .pattern-1{
     position: absolute;
     float: right;
-    Width: 295px;
+    Width: 240px;
     Height: 468px;
-    margin-top: -90px; 
-    left: 1500px;
+    margin-top: -50px; 
+    left: 990px;
     
 }
 
@@ -85,10 +87,10 @@ ul{
 
 .illustration{
     position: absolute;
-    width: 350px;
+    width: 280px;
     height: 780px;
     margin-top: -280px;
-    margin-left: 150px;
+    margin-left: 80px;
 }
 
 
@@ -99,19 +101,19 @@ ul{
     width:330px;
     height:520px;
     padding-top: auto;
-    margin-left: 440px; 
+    margin-left: 290px; 
 }
 
 
 .section-div1 {
     background-color: #191826;
-    width: 1370px;
-    border-radius: 25px;
-    height: 720px;
+    width: 1000px; 
+    border-radius: 15px;
+    height: 680px;
     Top: 157px;
     Left: 1374px;
     margin-top: 450px;
-    margin-left: 200px;
+    margin-left: 130px; 
 }
 
 
@@ -119,14 +121,13 @@ ul{
 .section-div2{
     background-color: #FA7453;
     Top:-268px;
-    Left:1934px;
-    width: 540px;
-    height: 730px;
+    width: 380px;
+    height: 660px;
     border-radius: 12px;
-    margin-left: auto;
+    margin-left: 530px;
     margin-top: -430px;
     margin-right: 150px;
-    border-radius :25px;
+    border-radius :15px;
     position: sticky;
 }
 
@@ -138,15 +139,15 @@ ul{
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    margin-left: 20px;
+    font-size: 34px;
+    margin-left: 5px;
     padding: 25px;
 }
 
 
 .div-premium {
     margin : 18px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 
@@ -154,11 +155,11 @@ ul{
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
-    margin-left: 70px;
+    font-size: 14px;
+    margin-left: 50px;
     margin-top: -20px;
-    line-height: 34px;
-    letter-spacing: 1.5px;
+    line-height: 28px;
+    letter-spacing: 1px;
     color: #FCFAF9; 
 }
 
@@ -166,7 +167,7 @@ ul{
 .section-div5 {
     text-align: left;
     padding: 60px;
-    margin-top: -25px;
+    margin-top: 50px;
 }
 
 
@@ -180,7 +181,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     margin-bottom: 40px;
-    margin-left: 10px;
+    margin-left: -10px;
     
 }
 
@@ -217,9 +218,9 @@ ul{
 
 .div6-button1 {
     background-color: #191826;
-    height: 81px;
-    width: 413px;
-    border-radius: 18px;
+    height: 55px;
+    width: 290px;
+    border-radius: 10px;
     margin-top: -30px;
 }
 
@@ -230,7 +231,7 @@ ul{
 
 
 .ios{
-    font-size: 24px;
+    font-size: 20px;
     color:#FCFAF9;
     margin-left: 6px;
     font-weight: 900;
@@ -239,7 +240,7 @@ ul{
 
 
 .andriod{
-    font-size: 24px;
+    font-size: 20px;
     color:#191826;
     margin-left: 6px;
     font-weight: 700;
@@ -249,9 +250,9 @@ ul{
 
 .div6-button2 {
     background-color:antiquewhite; 
-    height: 81px;
-    width: 413px;
-    border-radius: 18px;
+    height: 55px;
+    width: 290px;
+    border-radius: 10px;
 }
 
 .div6-button2:hover{
@@ -264,15 +265,15 @@ ul{
     display: flex;
     justify-content: space;
     flex-direction: row;
+    width:100%;
 }
 
 
 .footer-div2 {
     display: flex;
-    margin-left: -0px;
-    height: 32px;
+    height: 30px;
     margin-top: 200px;
-    margin-left: 200px;    
+    margin-left: 130px; 
 }
 
 
@@ -281,10 +282,10 @@ ul{
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     left: 25.68%;
     margin-top: 200px;
-    margin-left: 330px;
+    margin-left: 110px; 
     line-height: 34px;
 }
 
@@ -296,8 +297,7 @@ ul{
     margin-top: 200px;
     width: 100px;
     height: 20px;
-    left: 1499px;
-    padding: -0px;
+    margin-left: 1020px; 
 }
 
 
