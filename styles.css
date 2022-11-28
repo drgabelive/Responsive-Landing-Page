@@ -27,7 +27,7 @@
     padding-top: 30px;
     right: -5px;
     left: 1054px;
-    background-image: url("images/bg-main-mobile.png");
+    background-image: url("images/bg-main-desktop.png");
     background-size: cover;
 }
 
@@ -315,23 +315,25 @@ svg{
   
 @media screen and (max-width: 768px) {/*Media Queries for Tablet View*/
     html, body {
-        background-size:cover;          
         background-image: url("images/bg-main-tablet.png");
-        width: 100%;
-    
+        background-size: cover;
+        white-space: inherit;
+        
     }
     
-    
+
     .body-div{
-        height: 158px;
-        width: 100%;
-        background-size: cover;  
-    }                    
-         
+        height: 700px;
+        width: 400px;
+        padding-top: 30px;
+        background-image: url("images/bg-main-tablet.png");
+        background-size: cover;
+    }
     
+
     .equalizer{
         position: absolute;
-        margin-left: -70px;
+        margin-left: -50px;
         margin-top: 15px;
         height: 20px;
     }
@@ -339,28 +341,28 @@ svg{
     
     .pattern-1{
         position: absolute;
-        width: 170px;
-        height: 250px;
-        left: 330px;
+        width: 150px;
+        height: 270px;
+        left: 615px;
         top: 30px;
     }
     
     
     .h1-text{
-        width: 360px;
+        width: 460px;
         height: 106px;
-        margin:70px 10px;
-        font-size: 40px;
-        line-height: 45px;
+        margin:70px 35px;
+        font-size: 60px;
+        line-height: 55px;
         letter-spacing: -1px;
     }
     
     
     .h1-p{
-        font-size: 13px;
-        width: 370px;     
-        line-height: 20px;
-        margin: -10px 10px;
+        font-size: 14px;
+        width: 400px;     
+        line-height: 24px;
+        margin: 10px 40px;
         letter-spacing: 0px;
         font-weight: 400;
     }
@@ -369,51 +371,51 @@ svg{
     
     .section-div1 {
         position: absolute;
-        width: 430px;
-        height: 434px;
-        left: -110px;
-        top: 100px;
+        width: 690px;
+        height: 620px;
+        left: -90px;
+        top: 140px;
         border-radius: 10px;
     }
     
     
     .pattern-2{
-        width: 180px;
-        height: 300px;
-        margin-left:150px;
-        margin-top: -20px;
+        width: 370px;
+        height: 490px;
+        margin-left:140px;
+        margin-top: -50px;
     }
     
     
     .illustration{
         position: absolute;
-        margin-left: 20px;
-        height: 420px;
-        width: 190px;
-        margin-top: -120px;
+        margin-left: 50px;
+        height: 590px;
+        width: 220px;
+        margin-top: -150px;
     }
     
     
     .section-div2{
         position: absolute;
-        top: 160px;
-        width: 250px;
-        height:400px;
+        top: 200px;
+        width: 440px;
+        height:560px;
         margin-top: -50px;
-        margin-left: 150px;
+        margin-left: 192px;
         border-radius: 10px;
     }
     
     
     .h3-text{
-        margin-top: -30px;
-        margin-left: -20px;
+        margin-top: -10px;
+        margin-left: 20px;
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 700;
-        font-size: 24px;
-        width: 450px;
-        line-height: 40px;
+        font-size: 30px;
+        width: 300px;
+        line-height: 55px;
     }
     
     
@@ -421,26 +423,26 @@ svg{
         font-family: 'IBM Plex Sans';
         font-style: normal;
         font-weight: 300;
-        font-size: 10px;
-        max-width: 220px;
-        line-height: 20px;
-        margin:-30px 22px;
-        letter-spacing: 1.2px;
+        font-size: 14px;
+        width: 290px;
+        line-height: 25px;
+        margin:-30px 62px;
+        letter-spacing: 1.7px;
         color: #FCFAF9; 
     }
     
     .amount {
         color: white;
-        font-size: 50px;
+        font-size: 70px;
         line-height: 1px;
         display: flex;
         align-items: center;
         font-family: 'IBM Plex Sans';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         margin-bottom: 40px;
-        margin-top:-60px;
-        margin-left: -40px; 
+        margin-top:-30px;
+        margin-left: -2px; 
     }
     
     
@@ -449,7 +451,7 @@ svg{
         margin-bottom: 10px;
         font-family: 'IBM Plex Sans'; 
         font-size: 20px;
-        font-weight: 0;
+        font-weight: 300;
         letter-spacing: 2px;
         margin-left: 10px;
     }
@@ -468,11 +470,11 @@ svg{
     
     .div6-button1 {
         background-color: #191826;
-        height: 40px;
-        width: 200px;
+        height: 60px;
+        width: 310px;
         border-radius: 8px;
-        margin-top: -40px;
-        margin-left: -2px;
+        margin-top: -20px;
+        margin-left: 5px;
         align-items: center;
         display: flex;
         flex-direction: row;
@@ -481,9 +483,9 @@ svg{
     
     
     .apple{
-        height: 14px;
-        width: 14px;
-        margin-left: 10px;
+        height: 20px;
+        width: 20px;
+        margin-left: 55px;
     }
     
     
@@ -494,14 +496,14 @@ svg{
         margin-left: 90px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';
-        left: 10px;
+        left: 100px;
     }
     
     
     .div6-button2 {
         background-color:antiquewhite; 
-        height: 40px;
-        width: 200px;
+        height: 60px;
+        width: 310px;
         border-radius: 8px;
         margin-top: -10px;
         margin-left: -2px;
@@ -512,9 +514,9 @@ svg{
     
     
     .andriod-i{
-        height: 14px;
-        width: 14px;
-        margin-left: 30px;
+        height: 20px;
+        width: 20px;
+        margin-left: 80px;
     
     }
     
@@ -523,7 +525,7 @@ svg{
         position: absolute;
         font-size: 12px;
         color:#191826;
-        margin-left: 50px;
+        margin-left: 110px;
         font-weight: 900;
         font-family: 'IBM Plex Sans';  
     }
@@ -532,7 +534,7 @@ svg{
     .footer-div1{
         position: absolute;
         margin-left: -110px;
-        margin-top: 600px;
+        margin-top: 850px;
         display: flex;
         flex-direction: column;
         justify-content: left; 
@@ -545,7 +547,7 @@ svg{
         display:flex;
         flex-direction: column;
         justify-content: left;
-        margin-left: 130px;
+        margin-left: 150px;
         margin-top: 90px;
     }
     
@@ -553,12 +555,10 @@ svg{
     .h5-text{
         position: absolute;
         font-size: 12px;
-        margin-left: -70px;
+        margin-left: -50px;
         margin-top: 20px;
-        margin-bottom: 30px;
-        line-height: 25px;
-       
-        
+        padding-bottom: 30px;
+        line-height: 25px;   
     }
     
     
@@ -566,7 +566,7 @@ svg{
         position: absolute;
         display: flex;
         justify-content: space-around;
-        margin-left: 450px;
+        margin-left: 730px;
         margin-top: 160px;
     } 
     }
@@ -577,36 +577,37 @@ svg{
 
  @media screen and (max-width: 480px) {  /*Mobile View media Queries*/  
 html, body {
-    background-size:cover;         
-    background-image: url("images/bg-main-mobile.png"); 
-                     
+    background-size:cover; 
+    white-space: inherit;
+}                         
  }
-            
-            
-.body-div{
-    height: 205px;
-    width: 165px;
+        
+ 
+ .body-div{
+    height: 200px;
+    width: 160px;
     padding-top: 20px;
-    padding-right: -450px;
-    background-image: url("images/bg-main-mobile.png");
+    background-image: url("images/bg-main-tablet.png");
+    background-size: inherit;
  }
-                
-            
+ 
+ 
 .equalizer{
     position: absolute;
-    margin-left: -35px;
-    margin-top: -35px;
-    width: 50px;
+    margin-left: -20px;
+    margin-top: 5px;
+    width: 80px;
+    height: 90px;
 }
             
             
 .pattern-1{
     position: absolute;
     float: right;
-    Width: 120px;
-    Height: 200px;
+    Width: 140px;
+    Height: 300px;
     margin-top: -80px; 
-    left: 290px;
+    left: 340px;
 }
             
                 
@@ -614,19 +615,19 @@ html, body {
     position: absolute;
     width: 127px;
     height: 220px;
-    left: 64px;
-    top: 6px;
+    left: 24px;
+    top: 26px;
     filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.25));
 }
             
             
 .h1-text{
-    width: 280px;
-    height: 26px;
-    margin:110px -10px;
-    font-size: 30px;
+    width: 250px;
+    height: 30px;
+    margin:110px 5px;
+    font-size: 34px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 34px;
     letter-spacing: -0.454545px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
@@ -635,60 +636,60 @@ html, body {
 .h1-p{
     font-size: 12px;
     font-style: normal;
-    width: 240px;
-    margin: 90px -10px;       
-    line-height: 20px;
+    width: 245px;
+    height: 156px;
+    margin: -20px 5px;       
+    line-height: 14px;
     font-weight: 400;
     color: #191826;
 }
 
-
 .section-div1 {
     position: absolute;
-    width: 290px;
-    height: 400px;
-    left: -140px;
-    top: 92px;
+    width: 350px;
+    height: 370px;
+    margin-left: 150px;
+    top: 32px;
     border-radius: 10px;
 }
 
 
 .pattern-2{
-    width: 220px;
-    height: 320px;
-    margin-left:40px;
+    width: 200px;
+    height: 350px;
+    margin-left:30px;
     margin-top: 1px;
 }
 
 
 .illustration{
     position: absolute;
-    left: -95px;
-    height: 355px;
-    width: 180px;
+    left: -5px;
+    height: 380px;
+    width: 200px;
     margin-top: -100px;
 }
 
 
 .section-div2{
     position: absolute;
-    top: 160px;
-    left: -1px;
-    width: 291px;
-    height:400px;
+    top: 190px;
+    left: -192px;
+    width: 350px;
+    height:490px;
     margin-top: 128px;
     border-radius: 10px;
 }
 
 
 .h3-text{
-    margin-top: -30px;
-    margin-left: -5px;
+    margin-top: -10px;
+    margin-left: -25px;
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
-    width: 250px;
+    font-size: 35px;
+    width: 270px;
     line-height: 40px;
 }
 
@@ -697,18 +698,17 @@ html, body {
     font-family: 'IBM Plex Sans';
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
-    width: 220px;
-    line-height: 15px;
-    margin:-50px 40px;
+    font-size: 11px;
+    width: 250px;
+    line-height: 20px;
+    margin:-40px 20px;
     letter-spacing: 1.5px;
     color: #FCFAF9; 
-    height: 40px;
 }
 
 .amount {
     color: white;
-    font-size: 60px;
+    font-size: 80px;
     line-height: 1px;
     display: flex;
     align-items: center;
@@ -716,8 +716,8 @@ html, body {
     font-style: normal;
     font-weight: 700;
     margin-bottom: 40px;
-    margin-top:50px;
-    margin-left: -20px; 
+    margin-top:-30px;
+    margin-left: -35px; 
 }
 
 
@@ -725,7 +725,7 @@ html, body {
     color: white;
     margin-bottom: 10px;
     font-family: 'IBM Plex Sans'; 
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 0;
     letter-spacing: 2px;
     margin-left: 10px;
@@ -733,7 +733,7 @@ html, body {
 
 
 .time {
-    font-size: 1.8rem ;
+    font-size: 2.8rem ;
     margin-bottom: 50px;
     line-height: 38px;
     top: calc(100% - 100px/2 - 1px);
@@ -745,8 +745,8 @@ html, body {
 
 .div6-button1 {
     background-color: #191826;
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 295px;
     border-radius: 8px;
     margin-top: -20px;
     margin-left: -2px;
@@ -760,7 +760,7 @@ html, body {
 .apple{
     height: 18px;
     width: 18px;
-    margin-left: 10px;
+    margin-left: 60px;
 }
 
 
@@ -771,14 +771,14 @@ html, body {
     margin-left: 110px;
     font-weight: 900;
     font-family: 'IBM Plex Sans';
-    left: 10px;
+    left: 40px;
 }
 
 
 .div6-button2 {
     background-color:antiquewhite; 
-    height: 40px;
-    width: 200px;
+    height: 50px;
+    width: 295px;
     border-radius: 8px;
     margin-top: -2px;
     margin-left: 0px;
@@ -791,7 +791,7 @@ html, body {
 .andriod-i{
     height: 15px;
     width: 15px;
-    margin-left: 30px;
+    margin-left: 70px;
 
 }
 
@@ -800,11 +800,9 @@ html, body {
     position: absolute;
     font-size: 13px;
     color:#191826;
-    margin-left: 50px;
+    margin-left: 90px;
     font-weight: 900;
-    font-family: 'IBM Plex Sans';
-
-    
+    font-family: 'IBM Plex Sans'; 
 }
 
 
@@ -814,8 +812,8 @@ html, body {
     flex-direction: column;
     width: 96px;
     height: 143px;
-    left: -70px;
-    top: 1190px;    
+    left: -10px;
+    top: 400px;    
 }
 
 
@@ -838,12 +836,12 @@ html, body {
 
 .h5-text{
     position: absolute;
-    left: -190px;
+    left: 10px;
     top: -55px;
     font-size: 11px;
-    width:250px;        
+    width:180px;        
     line-height: 20px;
-    margin:180px 330px;
+    margin:180px 130px;
 }
 
 
@@ -851,9 +849,10 @@ html, body {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    left: 130px;
-    padding-bottom: 40px;       
+    margin-left: 130px;
+    margin-top: 250px;
+    padding-bottom: 60px;       
 }
-}
+
 
  
