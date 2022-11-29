@@ -575,7 +575,7 @@ svg{
     
     
 
- @media screen and (max-width: 480px) {  /*Mobile View media Queries*/  
+ @media screen and (min-width:320px) and (max-width: 480px) {  /*Mobile View media Queries*/  
 html, body {
     background-size:cover; 
     white-space: inherit;
@@ -584,8 +584,8 @@ html, body {
         
  
  .body-div{
-    height: 200px;
-    width: 160px;
+    /* height: 200px;
+    width: 160px; */
     padding-top: 20px;
     background-image: url("images/bg-main-tablet.png");
     background-size: cover;
@@ -607,7 +607,7 @@ html, body {
     Width: 140px;
     Height: 300px;
     margin-top: -80px; 
-    left: 340px;
+    left: 270px;
 }
             
                 
@@ -646,7 +646,7 @@ html, body {
 
 .section-div1 {
     position: absolute;
-    width: 350px;
+    width: 300px;
     height: 370px;
     margin-left: 150px;
     top: 32px;
@@ -675,7 +675,7 @@ html, body {
     position: absolute;
     top: 190px;
     left: -192px;
-    width: 350px;
+    width: 300px;
     height:490px;
     margin-top: 128px;
     border-radius: 10px;
