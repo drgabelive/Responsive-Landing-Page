@@ -588,7 +588,7 @@ html, body {
     width: 160px;
     padding-top: 20px;
     background-image: url("images/bg-main-tablet.png");
-    background-size: inherit;
+    background-size: cover;
  }
  
  
