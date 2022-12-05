@@ -76,10 +76,10 @@ ul{
 .pattern-1{
     position: absolute;
     float: right;
-    Width: 240px;
+    Width: 190px;
     Height: 468px;
     margin-top: -50px; 
-    left: 1100px;
+    left: 1160px;
     
 }
 
@@ -222,6 +222,7 @@ ul{
     width: 290px;
     border-radius: 10px;
     margin-top: -30px;
+    border-color: transparent;
 }
 
 .div6-button1:hover{
@@ -253,6 +254,7 @@ ul{
     height: 55px;
     width: 290px;
     border-radius: 10px;
+    border-color: transparent;
 }
 
 .div6-button2:hover{
